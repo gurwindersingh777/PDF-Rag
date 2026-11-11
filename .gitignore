@@ -71,3 +71,7 @@ server/uploads/*
 # Miscellaneous
 *.bak
 *.orig
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
