@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "dev:worker": "tsx watch src/worker.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -20,8 +21,10 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "bullmq": "^6.7.6",
     "cors": "^2.8.6",
     "express": "^5.3.0",
+    "ioredis": "^6.0.0",
     "multer": "^2.5.0"
   }
 }
